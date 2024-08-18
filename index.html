@@ -1,58 +1,57 @@
 <!DOCTYPE html>
-<html lang="fr"> <!-- Spécification de la langue du document -->
+<html lang="fr">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <!-- Balises meta pour le SEO -->
-    <meta name="description" content="Nina Carducci, photographe professionnelle à Bordeaux. Spécialisée dans les portraits, mariages, concerts, et photos d'entreprise. Découvrez son portfolio et ses services."> <!-- Optimisation de la meta-description -->
-    <meta name="keywords" content="photographe, Bordeaux, portrait, mariage, concerts, entreprise, photographie, portfolio, services photo, retouche photo">
-    <meta name="author" content="Nina Carducci">
-    
-    <!-- Balises meta pour Twitter -->
-    <meta name="twitter:card" content="summary_large_image"> <!-- Type de carte pour Twitter -->
-    <meta name="twitter:site" content="@NinaCarducciPhoto"> <!-- Compte Twitter -->
-    <meta name="twitter:title" content="Nina Carducci - Photographe à Bordeaux"> <!-- Titre pour Twitter -->
-    <meta name="twitter:description" content="Photographe à Bordeaux, spécialisée dans les portraits, mariages, et photos d'entreprise. Découvrez mon portfolio."> <!-- Description pour Twitter -->
-    <meta name="twitter:image" content="https://www.example.com/assets/images/slider/ryoji-iwata-wUZjnOv7t0g-unsplash.jpg"> <!-- Image pour Twitter -->
-    <meta name="twitter:creator" content="@NinaCarducciPhoto"> <!-- Créateur du contenu pour Twitter -->
-    
-    <!-- Optimisation du titre de la page pour le SEO -->
-    <title>Nina Carducci - Photographe à Bordeaux</title>
-    
-    <!-- Feuilles de style -->
     <link rel="stylesheet" href="./assets/bootstrap/bootstrap.css">
     <link rel="stylesheet" href="./assets/style.css">
-    
-    <!-- Chargement des polices -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter&family=Spectral:ital,wght@0,400;1,300;1,400;1,800&display=swap" rel="stylesheet">
-    
-    <!-- Scripts -->
     <script src="./assets/bootstrap/bootstrap.bundle.js"></script>
     <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
     <script src="./assets/maugallery.js"></script>
     <script src="./assets/scripts.js"></script>
+    <title>Nina Carducci - Photographe</title>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Photographer",
+        "name": "Nina Carducci",
+        "url": "http://example.com",
+        "image": "http://example.com/assets/images/nina.png",
+        "description": "Photographe spécialisée dans la capture d'émotions et de moments précieux. Basée en Île-de-France, Nina Carducci propose des shootings photo, des retouches et des albums personnalisés.",
+        "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Île-de-France",
+            "addressCountry": "France"
+        },
+        "contactPoint": {
+            "@type": "ContactPoint",
+            "contactType": "Customer Service",
+            "email": "contact@example.com"
+        }
+    }
+    </script>
 </head>
 <body>
-    <!-- En-tête du site -->
     <header>
         <div class="top-header">
-            <h1 class="name">Nina Carducci</h1> <!-- Utilisation de h1 pour le nom principal pour le SEO -->
+            <h1 class="name">Nina Carducci</h1>
             <nav class="nav">
                 <ul>
                     <li><a href="#about">À propos</a></li>
                     <li><a href="#gallery">Galerie</a></li>
                     <li><a href="#services">Services</a></li>
                     <li><a href="#contact">Contact</a></li>
-                    <li><a class="social-link" href="https://www.instagram.com/ninacarducci.photo/?hl=fr" target="_blank"><img src="assets/images/instagram.png" alt="Instagram de Nina Carducci"></a></li>
+                    <li><a class="social-link" href="https://www.instagram.com/ninacarducci.photo/?hl=fr" target="_blank">
+                        <img src="assets/images/instagram.png" alt="Instagram de Nina Carducci">
+                    </a></li>
                 </ul>
             </nav>
         </div>
     </header>
 
-    <!-- Carousel de la page d'accueil -->
     <div id="header">
         <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-indicators">
@@ -62,13 +61,13 @@
             </div>
             <div class="carousel-inner">
                 <div class="carousel-item active">
-                    <img src="./assets/images/slider/ryoji-iwata-wUZjnOv7t0g-unsplash.jpg" class="d-block w-100" alt="Photographie d'un paysage urbain par Nina Carducci"> <!-- Texte alternatif descriptif -->
+                    <img src="./assets/images/slider/ryoji-iwata-wUZjnOv7t0g-unsplash.jpg" class="d-block w-100" alt="Photographie d'un paysage urbain par Nina Carducci">
                 </div>
                 <div class="carousel-item">
-                    <img src="./assets/images/slider/nicholas-green-nPz8akkUmDI-unsplash.jpg" class="d-block w-100" alt="Photographie d'une nature verdoyante par Nina Carducci"> <!-- Texte alternatif descriptif -->
+                    <img src="./assets/images/slider/nicholas-green-nPz8akkUmDI-unsplash.jpg" class="d-block w-100" alt="Photographie d'une nature verdoyante par Nina Carducci">
                 </div>
                 <div class="carousel-item">
-                    <img src="./assets/images/slider/edward-cisneros-3_h6-1NPDGw-unsplash.jpg" class="d-block w-100" alt="Portrait en noir et blanc par Nina Carducci"> <!-- Texte alternatif descriptif -->
+                    <img src="./assets/images/slider/edward-cisneros-3_h6-1NPDGw-unsplash.jpg" class="d-block w-100" alt="Portrait en noir et blanc par Nina Carducci">
                 </div>
             </div>
             <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
@@ -82,54 +81,108 @@
         </div>
     </div>
 
-    <!-- Section À propos -->
     <section id="about">
         <div class="picture left">
-            <img src="./assets/images/nina.png" alt="Portrait de Nina Carducci"> <!-- Texte alternatif descriptif -->
+            <img src="./assets/images/nina.png" alt="Portrait de Nina Carducci">
         </div>
         <div id="about-me">
-            <h2 class="about-me__title">À propos de moi</h2> <!-- Utilisation de h2 pour structurer le contenu -->
-            <h3 class="about-me__introduction">Devenir photographe était pour moi une évidence...</h3> <!-- Utilisation de h3 pour les sous-titres -->
-            <p>Nous passons notre vie à chercher le bonheur...</p>
+            <h2 class="about-me__title">À propos de moi</h2>
+            <h3 class="about-me__introduction">Devenir photographe était pour moi une évidence. Comme si j’y étais prédestiné. Saisir un moment, une émotion, une situation, un endroit, une lumière et les rendre immortels, voilà ce qui me fait vibrer.</h3>
+            <p>Nous passons notre vie à chercher le bonheur, et lorsque nous y touchons, nous n’avons qu’une envie : le figer au travers de photographies pour le savourer avec les personnes qui sont importantes à nos yeux, ou le partager au plus grand nombre. C’est ce que je vous propose : saisir ces merveilleux moments au travers de mon regard, mon approche, ma technique. Rendre ces moments immortels, afin que vous puissiez y puiser de l’amour, du bonheur, de la tendresse et de lumière à chaque fois que vous poserez les yeux sur vos photos.</p>
         </div>
     </section>
 
-    <!-- Section Galerie -->
     <section id="gallery">
-        <h2 class="title">Portfolio</h2> <!-- Utilisation de h2 pour le titre principal de la section -->
+        <h2 class="title">Portfolio</h2>
         <div class="container py-3">
             <div class="gallery">
-                <img data-gallery-tag="Concert" class="gallery-item" src="./assets/images/gallery/concerts/aaron-paul-wnX-fXzB6Cw-unsplash.jpg" alt="Concert live photographié par Nina Carducci"> <!-- Texte alternatif descriptif -->
-                <img data-gallery-tag="Entreprises" class="gallery-item" src="./assets/images/gallery/entreprise/ali-morshedlou-WMD64tMfc4k-unsplash.jpg" alt="Photographie corporate par Nina Carducci"> <!-- Texte alternatif descriptif -->
-                <img data-gallery-tag="Entreprises" class="gallery-item" src="./assets/images/gallery/entreprise/jason-goodman-tHO1_OuKbg0-unsplash.jpg" alt="Photo d'entreprise par Nina Carducci"> <!-- Texte alternatif descriptif -->
-                <img data-gallery-tag="Mariages" class="gallery-item" src="./assets/images/gallery/mariage/hannah-busing-RvF2R_qMpRk-unsplash.jpg" alt="Mariage capturé par Nina Carducci"> <!-- Texte alternatif descriptif -->
-                <img data-gallery-tag="Portrait" class="gallery-item" src="./assets/images/gallery/portraits/ade-tunji-rVkhWWZFAtQ-unsplash.jpg" alt="Portrait artistique par Nina Carducci"> <!-- Texte alternatif descriptif -->
-                <img data-gallery-tag="Mariages" class="gallery-item" src="./assets/images/gallery/mariage/jakob-owens-SiniLJkXhMc-unsplash.jpg" alt="Mariage romantique par Nina Carducci"> <!-- Texte alternatif descriptif -->
-                <img data-gallery-tag="Concert" class="gallery-item" src="./assets/images/gallery/concerts/yvette-de-wit-7LNatQYMzm4-unsplash.jpg" alt="Concert énergique capturé par Nina Carducci"> <!-- Texte alternatif descriptif -->
-                <img data-gallery-tag="Portrait" class="gallery-item" src="./assets/images/gallery/portraits/michael-dam-mEZ3PoFGs_k-unsplash.jpg" alt="Portrait en extérieur par Nina Carducci"> <!-- Texte alternatif descriptif -->
-                <img data-gallery-tag="Concert" class="gallery-item" src="./assets/images/gallery/concerts/colin-lloyd-T6XelNcO-UA-unsplash.jpg" alt="Musicien sur scène photographié par Nina Carducci"> <!-- Texte alternatif descriptif -->
+                <img data-gallery-tag="Concert" class="gallery-item" src="./assets/images/gallery/concerts/aaron-paul-wnX-fXzB6Cw-unsplash.jpg" alt="Concert live photographié par Nina Carducci">
+                <img data-gallery-tag="Entreprises" class="gallery-item" src="./assets/images/gallery/entreprise/ali-morshedlou-WMD64tMfc4k-unsplash.jpg" alt="Photographie corporate par Nina Carducci">
+                <img data-gallery-tag="Entreprises" class="gallery-item" src="./assets/images/gallery/entreprise/jason-goodman-tHO1_OuKbg0-unsplash.jpg" alt="Photo d'entreprise par Nina Carducci">
+                <img data-gallery-tag="Mariages" class="gallery-item" src="./assets/images/gallery/mariage/hannah-busing-RvF2R_qMpRk-unsplash.jpg" alt="Mariage capturé par Nina Carducci">
+                <img data-gallery-tag="Portrait" class="gallery-item" src="./assets/images/gallery/portraits/ade-tunji-rVkhWWZFAtQ-unsplash.jpg" alt="Portrait artistique par Nina Carducci">
+                <img data-gallery-tag="Mariages" class="gallery-item" src="./assets/images/gallery/mariage/jakob-owens-SiniLJkXhMc-unsplash.jpg" alt="Mariage romantique par Nina Carducci">
+                <img data-gallery-tag="Portrait" class="gallery-item" src="./assets/images/gallery/portraits/nino-van-prattenburg--443cl1uR_8-unsplash.jpg" alt="Portrait en extérieur par Nina Carducci">
+                <img data-gallery-tag="Concert" class="gallery-item" src="./assets/images/gallery/concerts/austin-neill-hgO1wFPXl3I-unsplash.jpg" alt="Concert énergique capturé par Nina Carducci">
+                <img data-gallery-tag="Entreprises" class="gallery-item" src="./assets/images/gallery/entreprise/mateus-campos-felipe-Fsgzm8N0hIY-unsplash.jpg" alt="Photo d'entreprise par Nina Carducci">
+            </div>
+		</div>
+		<div class="quote" id="quote-section">
+			<figure>
+				<blockquote>
+					<h1 class="quote__text">Un portrait n’est pas une ressemblance. Dès lors qu’une émotion ou qu’un fait est traduit en photo, il cesse d’être un fait pour devenir une opinion. L’inexactitude n’existe pas en photographie. Toutes les photos sont exactes. Aucune d’elles n’est la vérité.</h1>
+				</blockquote>
+				<figcaption class="quote__author">- Richard Avedon</figcaption>
+			</figure>
+		</div>
+	</section>
+    <section id="services">
+        <h2 class="title">Mes services</h2>
+        <div class="container">
+            <div class="service">
+                <div class="service__description">
+                    <h3>Shooting photo</h3>
+                    <p>Pour capturer vos moments les plus précieux et garder un souvenir impérissable. Je me déplace en Île-de-France pour réaliser vos photos.</p>
+                </div>
+                <div class="service__price">
+                    <h4>350€/demi-journée</h4>
+                    <span>Matériel, déplacement inclus</span>
+                </div>
+            </div>
+            <div class="service">
+                <div class="service__description">
+                    <h3>Retouches</h3>
+                    <p>Vous souhaitez retoucher vos photos pour un résultat professionnel ? Bénéficier d’un rendu optimal pour vos publications.</p>
+                </div>
+                <div class="service__price">
+                    <h4>50€/photo</h4>
+                    <span>2 AR par photo</span>
+                </div>
+            </div>
+            <div class="service">
+                <div class="service__description">
+                    <h3>Album photos</h3>
+                    <p>Partagez avec vos proches et vos clients les photos des moments partagés ensemble à travers un album photo personnalisé.</p>
+                </div>
+                <div class="service__price">
+                    <h4>400€ album A4</h4>
+                    <span>30 pages recto/verso</span>
+                </div>
             </div>
         </div>
     </section>
 
-    <!-- Section Services -->
-    <section id="services">
-        <h2 class="title">Mes Services</h2> <!-- Utilisation de h2 pour structurer le contenu -->
-        <div class="services-content">
-            <p>Je propose des services photographiques pour diverses occasions...</p>
+    <section id="quote-section">
+        <div class="container">
+            <div class="quote">
+                <figure>
+                    <blockquote>
+                        <h1 class="quote__text">De manière inconsciente, je crois, je guette un regard, une expression, des traits ou une nostalgie capable de résumer ou plus exactement de révéler une vie</h1>
+                    </blockquote>
+                    <figcaption class="quote__author">- Richard Avedon</figcaption>
+                </figure>
+            </div>
         </div>
     </section>
 
-    <!-- Section Contact avec microdonnées Schema.org pour le référencement local -->
     <section id="contact">
-        <h2 class="title">Contactez-moi</h2> <!-- Utilisation de h2 pour structurer le contenu -->
-        <div class="contact-info" itemscope itemtype="http://schema.org/LocalBusiness"> <!-- Ajout de microdonnées Schema.org -->
-            <p>Adresse : <span itemprop="address">68 avenue Alsace-Lorraine, 33200 Bordeaux</span></p> <!-- Adresse avec microdonnées -->
-            <p>Téléphone : <span itemprop="telephone">05 56 67 78 89</span></p> <!-- Téléphone avec microdonnées -->
-            <p>Horaires : <span itemprop="openingHours">Lundi au vendredi, de 10h à 19h</span></p> <!-- Horaires avec microdonnées -->
-        </div>
-        <div class="form">
-            <p>Vous pouvez aussi me contacter via le formulaire ci-dessous...</p>
+        <div class="container">
+            <div class="form-container">
+                <h2>Une question ? Une demande de devis ?</h2>
+                <p>N’hésitez pas à m’écrire ! Je vous répondrai en moins de 24 heures.</p>
+                <form action="" method="post">
+                    <label for="nom">Nom</label>
+                    <input type="text" name="nom" id="nom">
+                    <label for="email">Email</label>
+                    <input type="email" name="email" id="email">
+                    <label for="message">Message</label>
+                    <textarea name="message" id="message" cols="30" rows="10"></textarea>
+                    <input type="submit" value="Envoyer">
+                </form>
+            </div>
+            <div class="picture right">
+                <img src="./assets/images/camera.png" alt="Appareil photo">
+            </div>
         </div>
     </section>
 </body>
