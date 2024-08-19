@@ -374,14 +374,6 @@ h2[itemprop="name"] {
     margin-bottom: 10px;
   }
   
-  p[itemprop="streetAdress"] {
-    margin: 0;
-  }
-  
-  span[itemprop="postalcode"] {
-    margin-right: 5px;
-  }
-  
   span[itemprop="addressLocality"] {
     font-weight: bold;
   }
